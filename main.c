@@ -2,7 +2,7 @@
 
 int main() {
     int i, n, silnia = 1;
-    printf("podaj n: ");
+    printf("podaj n w przedziale od 0 do 15: ");
     scanf(" %i", &n);
 
     if (n > 0 && n < 15){
@@ -13,6 +13,6 @@ int main() {
     } else {
         printf("podaj n w przedzialne od 0 to 15");
     }
-    
+
     return 0;
 }
